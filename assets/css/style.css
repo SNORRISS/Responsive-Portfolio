@@ -41,9 +41,10 @@ a{
 
 #menu{
     
-    width: 400px;
+    width: 300px;
     position: absolute;
     left: 56%;
+    
 }
 
 section{
@@ -52,20 +53,12 @@ section{
     background-color:#ffffff;
     margin-top:5%;
     margin-bottom:5%;
+    box-sizing: border-box;
     /* box-shadow: 1px 1px; */
     width: 960px;
 }
 
-#backdrop{
-position: fixed;
-height:100%;
-width:100%;
-left:0;
-top:0;
-z-index:-1;
 
-
-}
 
 body{
     background-image: url("../images/dynamic-style.png");
@@ -168,6 +161,7 @@ background-color:#4aaaa5;
 input{
     margin-left: 3%;
     width: 90%;
+    margin-right: 0;
 }
 
 #message{
@@ -247,7 +241,7 @@ section::after {
     header{
 
         height: 200px;
-        
+        width: 100%;
         
 
     }
@@ -256,6 +250,8 @@ section::after {
         position: static;
         float: none;
 
+        box-sizing: border-box;
+        height: 100px;
         width: 100%;
         left: 0%;
         padding-left: 27%;
@@ -270,7 +266,8 @@ section::after {
         margin-right: 0;
     }
     section{
-        width: 480px;
+        width: 80%;
+        margin-right:0;
 
     }
 
