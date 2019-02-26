@@ -71,8 +71,8 @@ body{
 
 #myimage{
 
-    height: 250px;
-    widows: 250px;
+    width: 250px;
+    
     margin: 50px;
     margin-bottom: 0;
     float: left;
@@ -262,13 +262,19 @@ section::after {
     #menu{
 
         top: 100px;
-        left: 23%;
+        left: 20%;
         margin-right: 0;
+        
     }
     section{
         width: 80%;
         margin-right:0;
 
+    }
+
+    #myimage{
+        width: 80%;
+        margin-left: 10%;
     }
 
   }
